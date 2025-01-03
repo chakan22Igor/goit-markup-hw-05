@@ -199,9 +199,7 @@ color: #8E8F99;
 }
 
 .modal-container {
-    padding: 72px 24px 24px 24px;
-    justify-content: center;
-    align-items: center;
+
 }
 
 .modal-container-input {
@@ -226,6 +224,11 @@ input:focus .modal-input-icon{
     box-shadow: none;
 }
 .modal-top-paragraph{
+}
+.modal{
+    padding: 72px 24px 24px 24px;
+    justify-content: center;
+    align-items: center;
 }
 /* header */
 nav{
