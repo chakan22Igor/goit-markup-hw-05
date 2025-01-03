@@ -61,7 +61,6 @@ address{
     flex-direction: column;
     border-radius: 4px;
     background-color: #FCFCFC;
-    margin-top: 80px;
     width: 408px;
     min-height: 584px;
     top: 50%;
@@ -172,7 +171,7 @@ color: #8E8F99;
 }
 .modal-exit-link:focus,
 .modal-exit-link:hover{
-    background-color: #404bbf;
+    background-color: #ffff;
     border: none;
 }
 .modal-exit-button{
@@ -203,8 +202,7 @@ color: #8E8F99;
 
 .modal-container {
     display: flex;
-    padding: 24px;
-    padding-top: 0px;
+    padding: 72px 24px 24px 24px;
     justify-content: center;
     align-items: center;
 }
@@ -229,6 +227,8 @@ input:focus .modal-input-icon{
     border-color: #4D5AE5;
     outline: none;
     box-shadow: none;
+}
+.modal-top-paragraph{
 }
 /* header */
 nav{
