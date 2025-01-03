@@ -443,19 +443,19 @@
             </div>
           </div>
           <div class="modal-wrapper-container-comment">
-            <label class="modal-label-comment" for="comment-user">Comment</label>
-            <textarea for="comment-user" placeholder="Text input" class="modal-container-comment"></textarea>
+            <label class="modal-label-comment" id="comment-user">Comment</label>
+            <textarea name="comment-user" placeholder="Text input" class="modal-container-comment"></textarea>
           </div>
           <div class="modal-button-container">
-            <input type="checkbox" class="visually-hidden" checked for="user-privacy">
-            <label class="checkbox-label" id="user-privacy" value="true"><span class="check">
+            <input type="checkbox" class="visually-hidden" checked name="user-privacy" value="true">
+            <label class="checkbox-label" id="user-privacy"><span class="check">
               <svg class="modal-checked-button" width="10" height="8">
                 <use href="./images/icons.svg#icon-button" class="modal-exit-button-cross"></use>
               </svg>
             </span>I accept the terms and conditions of the<a href="#" class="policy-link">Privacy Policy</a>
             </label>
-            <button type="button" class="modal-button">Send</button>
           </div>
+          <button type="button" class="modal-button">Send</button>
         </form>
         </div>
   </div> 
