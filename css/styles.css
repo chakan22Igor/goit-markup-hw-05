@@ -89,13 +89,14 @@ margin-bottom: 16px;
     padding-bottom: 8px
 }
 
-.modal-container-item {}
+.modal-container-item {
+    display: block;
+}
 .feedback-form{
     width: 360px ;
     height: 336px ;
     margin-bottom: 8px;
     line-height: 1.17;
-    display: block;
 }
 .modal-text{
 
@@ -190,6 +191,9 @@ color: #8E8F99;
     transform: translate(19px, 14px);
     fill: #888;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .modal-input-icon-wrappert:focus .modal-input-icon{
     fill: #4D5AE5;
@@ -211,6 +215,7 @@ color: #8E8F99;
     margin-top: 0;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
 }
 .modal-container-input:hover{
     
@@ -238,6 +243,9 @@ input:focus .modal-input-icon{
 }
 .modal-container-input:focus {
     border-color: #4D5AE5;
+}
+.modal-container-input:focus .modal-input-icon{
+    fill: #4D5AE5;
 }
 /* header */
 nav{
