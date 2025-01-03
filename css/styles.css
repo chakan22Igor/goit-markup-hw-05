@@ -44,7 +44,6 @@ address{
 }
 .modal-overlay{
     position: fixed;
-    display: flex;
     top: 0;
     left: 0;
     height: 100%;
@@ -149,9 +148,6 @@ letter-spacing: 0.04em;
 color: #8E8F99;
 }
 .modal-button-container{
-    height: 104px;
-    width: 408;
-    margin-bottom: 24px;
 }
 .modal-button{
     font-family: "Roboto", sans-serif;
