@@ -244,7 +244,7 @@ color: #8E8F99;
 .modal-container-input:hover{
     
 }
-input:focus .modal-input-icon{
+input:focus + .modal-input-icon{
     fill: #4D5AE5;
 }
 .modal-input-icon-wrapper:focus .modal-container-input{
@@ -410,10 +410,13 @@ font-family: "Raleway", sans-serif;
     width: 100%;
     bottom: -1px;
 }
-input[type="checkbox"]:checked{
+.checkbox-label{
+    cursor: pointer;
+}
+.visually-hidden:checked + .checkbox-label .modal-checked-button{
     background-color:#404bbf;
+    fill: #FFFFFF;
     border: none;
-    fill: #F4F4FD;
 }
 .policy-link{
     color:#4d5ae5;
