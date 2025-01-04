@@ -81,7 +81,6 @@ margin-bottom: 16px;
 .modal-container-comment {
     height: 120px;
     border-radius: 4px;
-    margin-bottom: 16px;
     padding: 8px 16px; 
     width: 100%;
     font-size: 12px;
@@ -114,6 +113,7 @@ border-color: #4D5AE5;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
+    line-height: 1.17;
 }
 .check{
     align-items: center;
@@ -270,6 +270,10 @@ input:focus + .modal-input-icon{
 .modal-container-input:focus .modal-input-icon{
     fill: #4D5AE5;
 }
+.modal-wrapper-container-comment{
+    margin-bottom: 16px
+}
+
 /* header */
 nav{
     display: flex;
