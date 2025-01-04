@@ -115,7 +115,7 @@ border-color: #4D5AE5;
     margin-bottom: 4px;
     line-height: 1.17;
 }
-.check-span{
+.check.span{
     align-items: center;
     justify-content: center;
     width: 16px;
