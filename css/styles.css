@@ -115,7 +115,7 @@ border-color: #4D5AE5;
     margin-bottom: 4px;
     line-height: 1.17;
 }
-.check.span{
+.check-span{
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -416,7 +416,7 @@ font-family: "Raleway", sans-serif;
 .checkbox-label{
     cursor: pointer;
 }
-.checkbox:checked + .checkbox-label .check.span {
+.checkbox:checked + .checkbox-label .check-span {
     background-color:#404bbf;
     fill: #F4F4FD;
     border: none;
