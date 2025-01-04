@@ -416,7 +416,7 @@ font-family: "Raleway", sans-serif;
 .checkbox-label{
     cursor: pointer;
 }
-.visually-hidden.checkbox:checked + .checkbox-label .check.span {
+.checkbox:checked + .checkbox-label .check.span {
     background-color:#404bbf;
     fill: #F4F4FD;
     border: none;
