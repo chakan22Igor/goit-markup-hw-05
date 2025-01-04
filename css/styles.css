@@ -100,6 +100,7 @@ border-color: #4D5AE5;
 }
 .modal-container-item {
     display: block;
+    line-height: 1.17;
 }
 .feedback-form{
 
@@ -411,13 +412,16 @@ font-family: "Raleway", sans-serif;
 .checkbox-label{
     cursor: pointer;
 }
-.checkbox:checked + .checkbox-label .check {
+.visually-hidden:checked + .checkbox-label .check {
     background-color:#404bbf;
     fill: #F4F4FD;
     border: none;
 }
 .policy-link{
     color:#4d5ae5;
+    text-decoration: underline;
+    line-height: 133%;
+    text-decoration-skip-ink: none;
 }
 
 /* Hero section 1 */
